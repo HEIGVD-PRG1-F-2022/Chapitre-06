@@ -1,4 +1,4 @@
-// Fichier pour les exercices 4 et 5 du chapitre 6.
+// Fichier pour l'exercice 4 du chapitre 6.
 #include <iomanip>
 #include <iostream>
 #include <string>
@@ -28,24 +28,10 @@ void ex_4b() {
   }
 }
 
-void ex_5() {
-  string str = "123";
-  // La meilleure formulation
-  if (str.empty()) {
-  }
-  if (str == "") {
-  }
-  if (str.length() == 0) {
-  }
-  if (str.size() == 0) {
-  }
-}
-
 int main() {
   cout << "Exercice 4:" << endl;
   ex_4a();
   cout << endl << "Exercice 4 avec for:" << endl;
   ex_4b();
-  ex_5();
   return 0;
 }
